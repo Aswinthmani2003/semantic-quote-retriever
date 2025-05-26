@@ -26,13 +26,15 @@ Built using a lightweight RAG-style (Retrieval-Augmented Generation) approach wi
 
 
 ---
+🎥 Demo Video
+👉 [https://drive.google.com/file/d/1HNsf02ve8lADID4U8wWTl46kwLQwUswD/view?usp=sharing]
 
-## 🚀 Running Locally
-
-1. **Clone this repo**
-
-```bash
-git clone https://github.com/Aswinthmani2003/semantic-quote-retriever.git
+🧪 How It Works
+1) Loads the Abirate/english_quotes dataset
+2) Encodes quotes using all-MiniLM-L6-v2 sentence transformer
+3) Builds a FAISS index on the quote embeddings
+4) Takes your query → encodes it → finds top-k closest quotes
+5) Displays results with author names using Streamlit
 
 🧠 Example Queries
 Try searching with:
@@ -46,13 +48,28 @@ Try searching with:
 "peaceful thoughts about happiness"
 
 🎥 Demo Video
-👉 [https://drive.google.com/file/d/1HNsf02ve8lADID4U8wWTl46kwLQwUswD/view?usp=sharing]
+👉 [Insert your Google Drive or YouTube demo link here]
+   
+## 🚀 Running Locally
 
-🧪 How It Works
-1) Loads the Abirate/english_quotes dataset
-2) Encodes quotes using all-MiniLM-L6-v2 sentence transformer
-3) Builds a FAISS index on the quote embeddings
-4) Takes your query → encodes it → finds top-k closest quotes
-5) Displays results with author names using Streamlit
+1. **Clone this repo**
+
+```bash
+git clone https://github.com/Aswinthmani2003/semantic-quote-retriever.git
+cd semantic-quote-retriever  
+
+2. **Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the app
+
+streamlit run app.py
+
+4. Visit http://localhost:8501
+
+
+
+
 
 
