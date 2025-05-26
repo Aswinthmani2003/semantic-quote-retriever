@@ -35,6 +35,7 @@ Built using a lightweight RAG-style (Retrieval-Augmented Generation) approach wi
 3) Builds a FAISS index on the quote embeddings
 4) Takes your query → encodes it → finds top-k closest quotes
 5) Displays results with author names using Streamlit
+6) Notebook Link: https://colab.research.google.com/drive/1mT9PSQHZI-ORqEiZdPGqxIhJrhcJ0pdV?usp=sharing
 
 🧠 Example Queries
 Try searching with:
