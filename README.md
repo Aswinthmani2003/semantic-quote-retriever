@@ -47,8 +47,6 @@ Try searching with:
 
 "peaceful thoughts about happiness"
 
-🎥 Demo Video
-👉 [Insert your Google Drive or YouTube demo link here]
    
 ## 🚀 Running Locally
 
@@ -57,19 +55,16 @@ Try searching with:
 ```bash
 git clone https://github.com/Aswinthmani2003/semantic-quote-retriever.git
 cd semantic-quote-retriever  
-
+```
 2. **Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 3. Run the app
-
+```bash
 streamlit run app.py
-
-4. Visit http://localhost:8501
-
-
-
-
-
-
+```
+4. Visit
+```bash
+http://localhost:8501
+```
