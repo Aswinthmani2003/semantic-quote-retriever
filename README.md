@@ -68,3 +68,6 @@ streamlit run app.py
 ```bash
 http://localhost:8501
 ```
+Sample Output
+![image](https://github.com/user-attachments/assets/b1b1dfef-eca8-4612-9e4a-0cc12da4f1ad)
+
