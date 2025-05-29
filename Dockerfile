@@ -10,8 +10,10 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Set environment variables
-ENV PYTHONUNBUFFERED=1
+# Streamlit config
+ENV STREAMLIT_SERVER_PORT=8080
+ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
+ENV STREAMLIT_BROWSER_GATHERUSAGESTATS=false
 
-# Run Streamlit on port 8080 (required by Cloud Run)
-CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+# Run Streamlit app
+CMD ["streamlit", "run", "app.py"]
